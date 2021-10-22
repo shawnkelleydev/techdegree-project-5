@@ -218,3 +218,15 @@ function filterGallery(input, people) {
   writeGalleryHTML(newArr);
   displayModals(newArr);
 }
+
+/* =================
+
+    CUSTOM STYLES
+
+================== */
+
+const body = document.querySelector("body");
+body.style.backgroundColor = "rgb(30,50,80)";
+
+const h1 = document.querySelector("h1");
+h1.style.color = "white";
