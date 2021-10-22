@@ -230,3 +230,16 @@ body.style.backgroundColor = "rgb(30,50,80)";
 
 const h1 = document.querySelector("h1");
 h1.style.color = "white";
+
+/* ==================
+
+    ESC LISTENER
+
+=================== */
+
+document.addEventListener("keydown", (e) => {
+  const key = e.key;
+  if (key === "Escape") {
+    modalDiv.innerHTML = ``;
+  }
+});
